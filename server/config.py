@@ -1,0 +1,5 @@
+import os
+
+SUPABASE_URL= "https://kmlvhqgmbdmcrlnkplxo.supabase.co"
+
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImttbHZocWdtYmRtY3JsbmtwbHhvIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczMTAxOTQ4MiwiZXhwIjoyMDQ2NTk1NDgyfQ.FoQTtIxeNG0bufEvuNoOgPIHveES5NW_aurrZNjkfiU"
