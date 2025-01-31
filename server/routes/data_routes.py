@@ -5,11 +5,11 @@ data_bp = Blueprint("data", __name__)
 
 @data_bp.route("/inventario", methods = ["GET"])
 def get_data():
-    response = supabase.table("catalogo_motores").select("*"). execute()
+    response = supabase.table("catalogoMotores").select("*"). execute()
     return jsonify(response.data), 200
 
 @data_bp.route("/inventario", methods=["POST"])
 def addMotores():
     data = request.json
-    response = supabase.table("catalogo_motores").insert(data).execute()
+    response = supabase.table("catalogoMotores").insert(data).execute()
     return jsonify({"message": "Motor subido a la base de datos", "data": response.data}), 201
